@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .food-list {
+            list-style: none;
+            padding: 0;
+        }
+        .food-list li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our Website!</h1>
+        <p>Explore technology, nature, and delicious food.</p>
+
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Home</h2>
+            <p>Discover the latest in technology:</p>
+            <a href="https://openai.com/sora" target="_blank">
+                <img src="technology.jpeg" alt="Technology" width="400" height="200">
+            </a>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Gallery: Nature's Beauty</h2>
+            <div class="gallery">
+                <a href="https://www.youtube.com/watch?v=IUN664s7N-c" target="_blank">
+                    <img src="nature1.avif" alt="Nature 1" width="200" height="200">
+                </a>
+                <a href="https://www.youtube.com/watch?v=IUN664s7N-c" target="_blank">
+                    <img src="nature2.jpeg" alt="Nature 2" width="200" height="200">
+                </a>
+                <a href="https://www.youtube.com/watch?v=IUN664s7N-c" target="_blank">
+                    <img src="nature3.jpeg" alt="Nature 3" width="200" height="200">
+                </a>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu">
+            <h2>Menu: Delicious Food</h2>
+            <ul class="food-list">
+                <li><a href="https://www.allrecipes.com/thmb/0xH8n2D4cC97t7mcC7eT2SDZ0aE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6776_Pizza-Dough_ddmfs_2x1_1725-fdaa76496da045b3bdaadcec6d4c5398.jpg" target="_blank">Pizza</a></li>
+                <li><a href="https://www.justonecookbook.com/wp-content/uploads/2020/01/Sushi-Rolls-Maki-Sushi-%E2%80%93-Hosomaki-1117-I.jpg" target="_blank">Sushi</a></li>
+                <li><a href="https://thegourmetbonvivant.com/wp-content/uploads/2022/01/chocolate-cake-milkshake-1200x1200-1-2-500x500.jpg" target="_blank">Chocolate Cake</a></li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
