@@ -1,0 +1,55 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+header h1 {
+    color: #fff;
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.introduction {
+    background-color: #f0f0f0;
+}
+
+.skills {
+    background-color: #e0e0e0;
+}
+
+.contact {
+    background-color: #ccc;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    border: 1px solid #999;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    section {
+        padding: 10px;
+    }
+}
